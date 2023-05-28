@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:paddingTop="7.5dp"
+    android:paddingBottom="7.5dp">
+
+    <View
+        android:id="@+id/dummyPlacementView"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/cityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:ellipsize="marquee"
+        android:fontFamily="@font/chivo"
+        android:marqueeRepeatLimit="@integer/material_motion_duration_short_2"
+        android:maxWidth="200dp"
+        android:paddingLeft="15dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Regensburg"
+        android:textColor="@color/bright_gray"
+        android:textSize="23sp" />
+
+    <ImageButton
+        android:id="@+id/addCityButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/dummyPlacementView"
+        android:background="@drawable/add_city_button_border_selector"
+        android:elevation="0dp"
+        android:src="@drawable/add_city_button_plus_selector"
+        android:stateListAnimator="@animator/add_city_button_state_animator"
+        app:tint="@color/add_city_button_tint_selector" />
+
+    <ImageView
+        android:id="@+id/addCityCheckMark"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/dummyPlacementView"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:elevation="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleX="0.55"
+        android:scaleY="0.55"
+        android:src="@drawable/avd_done"
+        android:visibility="gone"
+        app:tint="@color/granite_grey" />
+
+
+</RelativeLayout>

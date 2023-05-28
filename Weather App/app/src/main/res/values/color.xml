@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bright_gray">#EEEEEE</color>
+    <color name="chinese_silver">#CCCCCC</color>
+    <color name="spanish_grey">#999999</color>
+    <color name="granite_grey">#666666</color>
+    <color name="dark_charcoal">#333333</color>
+    <color name="black">#000000</color>
+    <color name="material_dark_grey_background">#212121</color>
+</resources>

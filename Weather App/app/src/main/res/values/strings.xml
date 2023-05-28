@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GreyScies</string>
+    <string name="new_place_popup">New Place</string>
+    <string name="places_api_key">[Your google places API key]</string>
+    <string name="open_weather_api_key">[Your open weather API key]</string>
+    <string name="open_weather_request_url">https://api.weatherapi.com/v1/current.json?key={API key}&amp;q={city name}&amp;aqi=no</string>
+    <string name="add_city_hint">City</string>
+    <string name="no_weather_data_found">No weather data available</string>
+    <string name="error">Error</string>
+    <string name="gps">Enable GPS</string>
+    <string name="locality_not_found">Location not found</string>
+    <string name="refreshed">Refreshed</string>
+    <string name="no_items">Add a new city</string>
+    <string name="no_items_popup">Search for a city</string>
+
+</resources>

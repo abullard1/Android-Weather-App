@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.WetterApp" parent="Theme.Material3.DayNight.NoActionBar"></style>
+
+    <style name="Theme.WetterApp.NoActionBarAndStatusBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- https://stackoverflow.com/questions/33061050/how-can-i-modify-ripple-color-when-using-attr-selectableitembackground-as-backg -->
+    <style name="SelectableItemRippleTheme">
+        <item name="colorControlHighlight">@color/granite_grey</item>
+    </style>
+</resources>
